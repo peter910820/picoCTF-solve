@@ -20,7 +20,7 @@ email
 ## solve:
 這題是分析電子郵件，其中提到ip, whois等關鍵字，我就先使用HxD尋找檔案中的IP字樣，然後找到**173.249.33.206**這個IP，之後搜尋whois，發現這是用來查找指定ip、域名的詳細資料的網站，將IP輸入後往下找找到person，裡面的人名按照格式輸入就是flag了。
 
-![who is it.png](../assets/who is it.png)
+![who is it.png](../assets/who%20is%20it.png)
 
 ## flag:
 **picoCTF{WilhelmZwalina}**
